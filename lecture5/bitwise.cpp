@@ -10,7 +10,6 @@ void testBitWise()
     cout << OR << endl;
     cout << NOT << endl;
     cout << RightShift << endl;
-    cout << leftShift << endl;
 }
 
 int main()

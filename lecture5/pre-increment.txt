@@ -1,0 +1,57 @@
+Pre-increment and Post-increment in C++
+
+1. Increment Operators:
+    - ++ is the increment operator in C++.
+    - It increases the value of a variable by 1.
+
+2. Pre-increment (++i):
+    - Syntax: ++variable;
+    - The variable is incremented first, then its value is used in the expression.
+
+    Example:
+    int a = 5;
+    int b = ++a; // a becomes 6, b is assigned 6
+
+3. Post-increment (i++):
+    - Syntax: variable++;
+    - The current value of the variable is used in the expression, then it is incremented.
+
+    Example:
+    int a = 5;
+    int b = a++; // b is assigned 5, then a becomes 6
+
+4. Table Example:
+
+    | Expression | Initial a | Value Used | Final a |
+    |------------|-----------|------------|---------|
+    | ++a        |     5     |     6      |    6    |
+    | a++        |     5     |     5      |    6    |
+
+5. Usage in Loops:
+    Both pre-increment and post-increment are commonly used in loops.
+
+    Example:
+    for(int i = 0; i < 5; ++i) { ... }
+    for(int i = 0; i < 5; i++) { ... }
+
+    In most cases, both work similarly for primitive types.
+
+6. Key Points:
+    - Pre-increment (++i): increments first, then uses the value.
+    - Post-increment (i++): uses the value first, then increments.
+    - For simple types (int, char), the difference is negligible in loops.
+    - For complex types (like iterators), prefer pre-increment for efficiency.
+
+7. Sample Code:
+
+#include <iostream>
+using namespace std;
+
+int main() {
+     int x = 10;
+     cout << "Pre-increment: " << ++x << endl; // 11
+     x = 10;
+     cout << "Post-increment: " << x++ << endl; // 10
+     cout << "After post-increment: " << x << endl; // 11
+     return 0;
+}
