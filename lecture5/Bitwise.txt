@@ -1,0 +1,28 @@
+Bitwise Operators in C++
+
+Bitwise operators operate on individual bits of integer data types. They are commonly used for low-level programming, such as device drivers, cryptography, and performance-critical code.
+
+1. Bitwise AND (&)
+    - Sets each bit to 1 if both bits are 1.
+    - Example: 5 & 3 = 1 (0101 & 0011 = 0001)
+
+2. Bitwise OR (|)
+    - Sets each bit to 1 if at least one of the bits is 1.
+    - Example: 5 | 3 = 7 (0101 | 0011 = 0111)
+
+3. Bitwise XOR (^)
+    - Sets each bit to 1 if only one of the bits is 1.
+    - Example: 5 ^ 3 = 6 (0101 ^ 0011 = 0110)
+
+4. Bitwise NOT (~)
+    - Inverts all the bits.
+    - Example: ~5 = -6 (for 8-bit: ~00000101 = 11111010)
+
+5. Left Shift (<<)
+    - Shifts bits to the left, filling with 0s.
+    - Example: 5 << 1 = 10 (0101 << 1 = 1010)
+
+6. Right Shift (>>)
+    - Shifts bits to the right.
+    - Example: 5 >> 1 = 2 (0101 >> 1 = 0010)
+
