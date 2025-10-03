@@ -1,0 +1,52 @@
+Array - Data Structures and Algorithms (DSA) Notes
+
+1. Definition:
+    - An array is a collection of elements, each identified by an index or a key.
+    - All elements are stored in contiguous memory locations.
+    - Elements are of the same data type.
+
+2. Declaration and Initialization:
+    - Syntax (C++): int arr[5]; // declares an array of 5 integers
+    - Initialization: int arr[5] = {1, 2, 3, 4, 5};
+
+3. Accessing Elements:
+    - Use index (starting from 0): arr[0], arr[1], ..., arr[n-1]
+
+4. Types of Arrays:
+    - One-dimensional array: arr[10]
+    - Multi-dimensional array: arr[3][4] (2D array)
+
+5. Advantages:
+    - Fast access (O(1) time) to any element using index.
+    - Easy to implement.
+
+6. Disadvantages:
+    - Fixed size (static arrays).
+    - Insertion and deletion are costly (O(n) time).
+    - Wastes memory if not fully used.
+
+7. Common Operations:
+    - Traversal: Visit all elements.
+    - Insertion: Add an element at a specific position.
+    - Deletion: Remove an element from a specific position.
+    - Search: Find the location of a given element (Linear/Binary Search).
+    - Update: Change the value of an element.
+
+8. Applications:
+    - Used to implement other data structures (lists, stacks, queues).
+    - Useful in sorting and searching algorithms.
+
+9. Time Complexities:
+    - Access: O(1)
+    - Search: O(n) (linear), O(log n) (binary, sorted array)
+    - Insertion/Deletion: O(n)
+
+10. Example (C++):
+    int arr[5] = {10, 20, 30, 40, 50};
+    for(int i = 0; i < 5; i++) {
+         cout << arr[i] << " ";
+    }
+
+Summary:
+- Arrays are fundamental data structures in DSA.
+- They provide fast access but have limitations in size and flexibility.
